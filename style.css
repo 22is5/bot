@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Jetbrains Mono";
+  src: url("/assets/fonts/jetbrains-mono.ttf");
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000;
+  padding: 12px;
+  font-family: "Jetbrains Mono";
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+  padding: 12px;
+  background-color: #cacaca;
+  border-top: solid 5px #ffffff50;
+  border-right: solid 5px #ffffff50;
+  border-bottom: solid 5px #00000050;
+  border-left: solid 5px #00000050;
+}
+.main {
+  padding: 12px;
+  background-color: #cacaca;
+  border: solid 2px #00000015;
+  position: relative;
+}
+.title {
+  font-size: 32px;
+  text-align: center;
+  font-weight: 600;
+}
+.tag {
+  font-size: 12px;
+  padding: 0 5px;
+  transform: translate(-5px, -20px);
+  background-color: #cacaca;
+  position: absolute;
+}
+a {
+  background-color: #cacaca;
+  text-decoration: none;
+  color: #4b6aa3;
+  font-weight: 600;
+}
+code {
+  font-family: "Jetbrains Mono";
+  background-color: #aaa;
+  padding: 3px;
+  border-radius: 5px;
+}
+.content {
+  line-height: 2;
+}
